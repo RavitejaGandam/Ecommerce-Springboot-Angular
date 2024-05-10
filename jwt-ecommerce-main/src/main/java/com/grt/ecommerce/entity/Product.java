@@ -13,7 +13,7 @@ public class Product {
     private String productName;
     private String productDescription;
     private Double productDiscountedPrice;
-    private Double getProductActualPrice;
+    private Double ProductActualPrice;
 
     public Integer getProductId() {
         return productId;
@@ -47,11 +47,11 @@ public class Product {
         this.productDiscountedPrice = productDiscountedPrice;
     }
 
-    public Double getGetProductActualPrice() {
-        return getProductActualPrice;
+    public Double getProductActualPrice() {
+        return ProductActualPrice;
     }
 
-    public void setGetProductActualPrice(Double getProductActualPrice) {
-        this.getProductActualPrice = getProductActualPrice;
+    public void setProductActualPrice(Double getProductActualPrice) {
+        this.ProductActualPrice = getProductActualPrice;
     }
 }
