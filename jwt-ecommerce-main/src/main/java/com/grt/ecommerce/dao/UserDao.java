@@ -1,6 +1,6 @@
-package com.youtube.jwt.dao;
+package com.grt.ecommerce.dao;
 
-import com.youtube.jwt.entity.User;
+import com.grt.ecommerce.entity.User;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

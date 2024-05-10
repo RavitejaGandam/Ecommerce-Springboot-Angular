@@ -1,4 +1,4 @@
-package com.youtube.jwt.entity;
+package com.grt.ecommerce.entity;
 
 import javax.persistence.*;
 import java.util.Set;
